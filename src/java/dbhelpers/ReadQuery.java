@@ -77,7 +77,7 @@ public class ReadQuery {
                 player.setPlayerID(this.results.getInt("playerID"));
                 player.setPlayerName(this.results.getString("playerName"));
                 player.setAge(this.results.getInt("age"));
-                player.setPosition(this.results.getString("position"));
+                player.setPosition(this.results.getString("playerPosition"));
                 player.setTeam(this.results.getString("team"));
                 player.setCollege(this.results.getString("college"));
                 

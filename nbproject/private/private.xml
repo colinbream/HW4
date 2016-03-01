@@ -6,6 +6,9 @@
             <file>file:/C:/Users/Owner/Documents/NetBeansProjects/footballplayersApp/src/java/dbhelpers/dbConn.properties</file>
             <file>file:/C:/Users/Owner/Documents/NetBeansProjects/footballplayersApp/web/index.jsp</file>
             <file>file:/C:/Users/Owner/Documents/NetBeansProjects/footballplayersApp/src/java/model/FootballPlayers.java</file>
+            <file>file:/C:/Users/Owner/Documents/NetBeansProjects/footballplayersApp/src/java/controller/Read.java</file>
+            <file>file:/C:/Users/Owner/Documents/NetBeansProjects/footballplayersApp/web/read.jsp</file>
+            <file>file:/C:/Users/Owner/Documents/NetBeansProjects/footballplayersApp/src/java/dbhelpers/ReadQuery.java</file>
         </group>
     </open-files>
 </project-private>
