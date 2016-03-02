@@ -105,6 +105,11 @@ public class ReadQuery {
                 table += "<td>";
                 table += player.getCollege();
                 table += "</td>";
+                
+                table += "<td>";
+                table += "<a href=delete?playerID=" + player.getPlayerID()+ "> Delete </a>";
+                table += "</td>";
+                
                 table += "</tr>";
                 
             }
