@@ -9,9 +9,11 @@
             <file>file:/C:/Users/Owner/Documents/NetBeansProjects/footballplayersApp/web/index.jsp</file>
             <file>file:/C:/Users/Owner/Documents/NetBeansProjects/footballplayersApp/src/java/model/FootballPlayers.java</file>
             <file>file:/C:/Users/Owner/Documents/NetBeansProjects/footballplayersApp/src/java/controller/AddForm.java</file>
+            <file>file:/C:/Users/Owner/Documents/NetBeansProjects/footballplayersApp/src/java/dbhelpers/DeleteQuery.java</file>
             <file>file:/C:/Users/Owner/Documents/NetBeansProjects/footballplayersApp/src/java/controller/Read.java</file>
             <file>file:/C:/Users/Owner/Documents/NetBeansProjects/footballplayersApp/web/read.jsp</file>
             <file>file:/C:/Users/Owner/Documents/NetBeansProjects/footballplayersApp/src/java/dbhelpers/AddQuery.java</file>
+            <file>file:/C:/Users/Owner/Documents/NetBeansProjects/footballplayersApp/src/java/controller/DeleteServlet.java</file>
             <file>file:/C:/Users/Owner/Documents/NetBeansProjects/footballplayersApp/src/java/dbhelpers/ReadQuery.java</file>
         </group>
     </open-files>
