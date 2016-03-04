@@ -38,7 +38,7 @@ public class AddForm extends HttpServlet {
             out.println("<!DOCTYPE html>");
             out.println("<html>");
             out.println("<head>");
-            out.println("<title>Servlet AddForm</title>");            
+            out.println("<title>Servlet AddForm</title>"); 
             out.println("</head>");
             out.println("<body>");
             out.println("<h1>Servlet AddForm at " + request.getContextPath() + "</h1>");

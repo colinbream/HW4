@@ -10,6 +10,7 @@
     <body>
         <h1>Add A New Player</h1>
         
+        <div class="styleform">
         <form name="addForm" action="addPlayer" method="get">
             
             <label>Player Name:</label>
@@ -27,8 +28,10 @@
             <label>College:</label>
             <input type="text" name="college" value=""/>
             <br>
+            <br>
             <input type="submit" name="submit" value="Submit"/>
         </form>
-            
+        </div>
+        
     </body>
 </html>

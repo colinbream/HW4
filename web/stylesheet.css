@@ -32,7 +32,6 @@ th
 td
 {
     height: 10px;
-    vertical-align: center;
     background-color: #F08080;
     color: #FFFFFF;
 }
@@ -50,10 +49,25 @@ tr:hover
 
 tr:nth-child(even)
 {
-    background-color: #F2F2F2;
+    background-color: #EDEDED;
 }
 
 padding
 {
     background-color: white;
+}
+
+.styleform label
+{
+    display: inline-block;
+    float: left;
+    clear: left;
+    width: 100px;
+}
+
+.styleform input
+{
+    display: inline-block;
+    float: left;
+    
 }
