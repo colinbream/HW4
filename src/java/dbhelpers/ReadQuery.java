@@ -68,7 +68,17 @@ public class ReadQuery {
         
         String table = "";
        
-        table += "<table border=1>";
+        table += "<table>";
+        
+        table += "<tr>";
+                table += "<th>Player ID</th>";
+                table += "<th>Player Name</th>";
+                table += "<th>Age</th>";
+                table += "<th>Position</th>";
+                table += "<th>Team</th>";
+                table += "<th>College</th>";
+                table += "<th></th>";
+                table += "</tr>";
         
         try {
             while(this.results.next()){
@@ -80,6 +90,8 @@ public class ReadQuery {
                 player.setPosition(this.results.getString("playerPosition"));
                 player.setTeam(this.results.getString("team"));
                 player.setCollege(this.results.getString("college"));
+                
+                
                 
                 table += "<tr>";
                 table += "<td>";

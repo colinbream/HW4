@@ -4,6 +4,8 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>Football Players</title>
+        <link rel="stylesheet" type="text/css" href="stylesheet.css"/>
+        
     </head>
     <body>
         <h1>Football Player Database</h1>
