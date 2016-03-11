@@ -10,7 +10,7 @@
     <body>
         <h1>Add A New Player</h1>
         
-        <div class="styleform">
+        <div class="add">
         <form name="addForm" action="addPlayer" method="get">
             
             <label>Player Name:</label>

@@ -57,7 +57,7 @@ padding
     background-color: white;
 }
 
-.styleform label
+.add label
 {
     display: inline-block;
     float: left;
@@ -65,7 +65,22 @@ padding
     width: 100px;
 }
 
-.styleform input
+.add input
+{
+    display: inline-block;
+    float: left;
+    
+}
+
+.update label
+{
+    display: inline-block;
+    float: left;
+    clear: left;
+    width: 100px;
+}
+
+.update input
 {
     display: inline-block;
     float: left;
