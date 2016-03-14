@@ -86,3 +86,5 @@ padding
     float: left;
     
 }
+
+input[readonly] {background-color: gray};
