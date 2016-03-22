@@ -50,7 +50,7 @@ public class UpdateQuery {
     public void doUpdate (FootballPlayers player){
         
         try {
-            String query = "UPDATE football_players SET playerID = ?, playerName = ?, age = ?, position = ?, team = ?, college = ?";
+            String query = "UPDATE football_players SET playerName = ?, age = ?, playerPosition = ?, team = ?, college = ? WHERE playerID = ?";
             
             PreparedStatement ps = conn.prepareStatement(query);
             
@@ -59,6 +59,7 @@ public class UpdateQuery {
             ps.setString(3, player.getPosition());
             ps.setString(4, player.getTeam());
             ps.setString(5, player.getCollege());
+            ps.setInt(6, player.getPlayerID());
             
             ps.executeUpdate();
         } catch (SQLException ex) {
